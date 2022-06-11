@@ -80,6 +80,19 @@ namespace QuestPatcher
             string[] files = await dialog.ShowAsync(_mainWindow);
             if(files != null)
             {
+                if(!files[0].EndsWith(".apk"))
+                {
+                    DialogBuilder builder1 = new()
+                    {
+                        Title = "你选择的文件有误",
+                        Text = "你选择的文件有误，将不会继续安装。",
+                        HideCancelButton = true
+                    };
+                    builder1.OkButton.ReturnValue = false;
+                    await builder1.OpenDialogue(_mainWindow);
+                    return;
+                }
+
                 {
                     DialogBuilder builder1 = new()
                     {
@@ -93,8 +106,8 @@ namespace QuestPatcher
                 _locker.StartOperation();
                 
                 _mainWindow.IsEnabled = false;
+                await _patchingManager.Uninstall();
 
-      
                 await _patchingManager.InstallApp(files[0]);
                 _locker.FinishOperation();
                 {
@@ -147,10 +160,10 @@ namespace QuestPatcher
         }
         public async Task UninstallAndInstall()
         {
-            await _patchingManager.Uninstall();
+            
             DialogBuilder builder1 = new()
             {
-                Title = "卸载已完成！",
+                Title = "请选择要安装的应用",
                 Text = "点击确定以选择要安装的应用",
                 HideCancelButton = true
             };
