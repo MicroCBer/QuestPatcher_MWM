@@ -161,6 +161,12 @@ namespace QuestPatcher.Services
                 
                 if(ex.ToString().Contains("___flag_beatsaber_cracked_version___"))
                 {
+                    ProcessStartInfo psi = new()
+                    {
+                        FileName = "https://bs.wgzeyu.com/oq-guide-qp/#sbwc8866",
+                        UseShellExecute = true
+                    };
+                    Process.Start(psi);
                     DialogBuilder builder1 = new()
                     {
                         Title = "非原版BeatSaber！",
