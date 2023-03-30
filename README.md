@@ -30,5 +30,3 @@ Thanks for using!
 ## Icey
 Yet another mod assistant for Beat Saber on the Quest 2.
 ![Icey](https://bs.wgzeyu.com/oq-guide-qp/img/icey_3.webp)
-## QuestServerSwitcher
-![Quest](https://bs.wgzeyu.com/oq-guide-qp/img/bt-server.webp)
