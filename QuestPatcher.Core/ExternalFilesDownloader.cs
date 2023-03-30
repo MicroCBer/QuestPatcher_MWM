@@ -100,7 +100,7 @@ namespace QuestPatcher.Core
         /// <summary>
         /// Index for file downloads. Used by default, but if it fails QP will fallback to resources
         /// </summary>
-        private const string DownloadsUrl = "https://raw.githubusercontent.com/Lauriethefish/QuestPatcher/main/QuestPatcher.Core/Resources/file-downloads.json";
+        private const string DownloadsUrl = "https://beatmods.wgzeyu.com/github/MicroCBer/QuestPatcher/Resources/file-downloads.json";
 
         private readonly Dictionary<ExternalFileType, FileInfo> _fileTypes = new()
         {

@@ -23,9 +23,9 @@
         "linux": "https://ganbei-hot-update-1258625969.file.myqcloud.com/questpatcher_mirror/platform-tools-latest-linux.zip"
       },
       "Jre": {
-        "windows": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_hotspot_11.0.13_8.zip",
-        "mac": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/mac/OpenJDK11U-jdk_x64_mac_hotspot_11.0.13_8.tar.gz",
-        "linux": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/linux/OpenJDK11U-jdk_x64_linux_hotspot_11.0.13_8.tar.gz"
+        "windows": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.11%2B9/OpenJDK11U-jre_x64_windows_hotspot_11.0.11_9.zip",
+        "mac": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.11%2B9/OpenJDK11U-jre_x64_mac_hotspot_11.0.11_9.tar.gz",
+        "linux": "https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.11%2B9/OpenJDK11U-jre_x64_linux_hotspot_11.0.11_9.tar.gz"
       },
       "OvrPlatformSdk": {
         "any": "https://bs.wgzeyu.com/speedlimit/qpfile/OVRPlatformSDK_v1.36.0.zip"
