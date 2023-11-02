@@ -66,9 +66,10 @@
           </TextBlock>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Spacing="10">
-          <ToggleButton IsChecked="{Binding Config.UseMirrorDownload}">使用国内镜像</ToggleButton>
+          <ToggleButton IsChecked="{Binding Config.UseMirrorDownload}" IsEnabled="False">使用国内镜像</ToggleButton>
           <TextBlock VerticalAlignment="Center" FontSize="12">
-            通过国内镜像来加速内容下载，建议中国大陆用户打开（蓝色代表打开）
+              通过国内镜像来加速内容下载 (暂不可用)
+              <!-- 通过国内镜像来加速内容下载，建议中国大陆用户打开（蓝色代表打开） -->
           </TextBlock>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Spacing="10">

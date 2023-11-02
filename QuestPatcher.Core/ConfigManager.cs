@@ -43,6 +43,7 @@ namespace QuestPatcher.Core
                 {
                     SaveDefaultConfig(false);
                     _loadedConfig = LoadConfig();
+                    _loadedConfig.UseMirrorDownload = false; // force not using mirror
                 }
                 catch (Exception ex)
                 {

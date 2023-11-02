@@ -15,8 +15,10 @@
       <ExperimentalAcrylicBorder DockPanel.Dock="Left" Width="240" Material="{DynamicResource MainBackgroundMaterial}">
         <StackPanel Orientation="Vertical" Margin="10 30 10 10" Spacing="3">
           <TextBlock TextAlignment="Center" Text="{Binding WelcomeText}" />
-          <TextBlock TextAlignment="Center" Text="Modified by MicroBlock &amp; SkyQe &amp; WGzeyu" FontSize="10"
+          <TextBlock TextAlignment="Center" Text="Modified by MicroBlock &amp; SkyQe" FontSize="10"
                      TextTrimming="CharacterEllipsis" />
+          <!-- <TextBlock TextAlignment="Center" Text="Modified by MicroBlock &amp; SkyQe &amp; WGzeyu" FontSize="10" -->
+          <!--            TextTrimming="CharacterEllipsis" /> -->
         </StackPanel>
       </ExperimentalAcrylicBorder>
 
@@ -89,13 +91,13 @@
                         FontSize="12" Padding="10" Margin="6">
                   @Sky·Qe
                 </Button>
-                <Button Command="{Binding WGZEYUAddr}"
-                        HorizontalContentAlignment="Center"
-                        HorizontalAlignment="Left"
-                        VerticalAlignment="Top"
-                        FontSize="12" Padding="10" Margin="6">
-                  @WGzeyu
-                </Button>
+                <!-- <Button Command="{Binding WGZEYUAddr}" -->
+                <!--         HorizontalContentAlignment="Center" -->
+                <!--         HorizontalAlignment="Left" -->
+                <!--         VerticalAlignment="Top" -->
+                <!--         FontSize="12" Padding="10" Margin="6"> -->
+                <!--   @WGzeyu -->
+                <!-- </Button> -->
 
 
               </StackPanel>
