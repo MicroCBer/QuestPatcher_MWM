@@ -308,8 +308,8 @@ namespace QuestPatcher.Core.Downgrading
             }
             catch (AdbException)
             {
-                Log.Warning("Failed to remove the original APK, likely because it was already removed in a previous patching attempt");
-                Log.Warning("Will continue with modding anyway");
+                Log.Warning("Failed to uninstall the original APK, could be already uninstalled");
+                Log.Warning("Will continue with installing downgraded one anyway");
             }
 
             Log.Information("Installing downgraded APK");
